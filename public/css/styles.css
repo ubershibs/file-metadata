@@ -77,7 +77,6 @@ p, li {
   position: relative;
   width: 100%;
   margin: auto;
-  padding: 0;
   border: 1px solid silver;
   background-color: silver;
   box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
@@ -92,18 +91,18 @@ h2 {
   position: relative;
   display: block;
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 #response { 
   width: auto;
-  min-height: 60px;
+  min-height: 10px;
+  height: auto;
   margin: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0 40px 0;
   text-align: center;
   position: relative;
   display: block;
-  padding: 10px;
   border: 1px solid silver;
   background-color: white;
 }
