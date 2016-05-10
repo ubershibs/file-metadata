@@ -1,0 +1,19 @@
+{
+  "name": "file-metadata",
+  "version": "0.0.1",
+  "description": "A microservice that returns the size in bytes of an uploaded file.",
+  "main": "server.js",
+  "author": "Luke Walker <luke.walker@gmail.com>",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "engines": {
+    "node": "4.4.3"
+  }
+}

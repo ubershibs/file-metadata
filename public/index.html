@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Luke Walker's File Metadata Microservice</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>File Metadata Microservice</h1>
+    <ol>
+      <li><strong>User Story:</strong> I can submit a FormData object that includes a file upload.</li>
+      <li><strong>User Story:</strong> When I submit something, I will receive the file size in bytes within the JSON response</li>
+    </ol>
+    <h2>Try it for yourself...</h2>
+    <p>Upload a file using this form:</p>
+    <div id="form">
+      <form name="uploadform" id="uploadform" action="/analyze" method="post" enctype="multipart/form-data" class="custom-file-input">
+        <input type="file" name="file" id="file">
+        <input type="submit" value="upload" id="submit" name="submit">
+      </form>
+    </div>
+    <div id="response-container">
+      <h2>Server Response</h2>
+      <div id="response">
+          
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>    
+</html>
