@@ -138,3 +138,9 @@ button {
   border-radius: 0px;
   border: 1px solid black;
 }
+
+.credit {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
